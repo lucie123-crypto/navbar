@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style src="./css/style.css"></style>
+   <script src="main.js"></script>
+   <title>Pagina Inicial</title>
+
+   <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+   <div class="Menu-Navegação">
+      <header>
+         <nav>
+            <ul>
+               <li> <a href="#Home"> Home</a></li><!--link para a seção Home-->
+               <li> <a href="#Sobre"> Sobre</a></li><!--link para a seção Sobre-->
+               <li> <a href="#Contato">Contato</a></li><!--link para a seção Contato-->
+            </ul>
+         </nav>
+      </header>
+   </div> 
+   
+   <section id="Home">
+      <H1>Bem-Vindo a Home</H1>
+      <p>Esta e a seção inicial da página</p>
+   </section>
+   <section id="Sobre">
+      <H1>Sobre Nós</H1>
+      <p>Informações sobre a nossa empresa ou site</p>
+   </section>
+   <section id="Contato">
+      <H1>Contato</H1>
+      <p>Entre em Contato Com a nossa Equipe</p>
+   </section>
+</body>
+
+</html>
